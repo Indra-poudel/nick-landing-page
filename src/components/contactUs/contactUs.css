@@ -1,0 +1,129 @@
+.contact__us_wrapper {
+  background: #d6ebe4;
+  padding-bottom: 25px !important;
+}
+
+.contact__us_heading {
+  padding: 25px 0;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  letter-spacing: -1px;
+  color: #262729;
+}
+
+.contact__us_heading_tagline {
+  font-size: 17px;
+  line-height: 30px;
+  text-align: center;
+  color: #262729;
+  mix-blend-mode: normal;
+  opacity: 0.7;
+  margin-bottom: 42px;
+}
+
+.contact__us_input {
+  padding: 24px 28px;
+  margin: 0 10px;
+  border: none;
+  background-color: white;
+  font-size: 17px;
+  line-height: 30px;
+  color: #262729;
+  mix-blend-mode: normal;
+  opacity: 0.7;
+  border-radius: 8px;
+}
+
+.contact__us_form {
+  flex-direction: column;
+  align-items: center;
+  max-width: 670px;
+  margin: auto;
+}
+
+.contact__us_row1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact__us_row1 > input {
+  flex: 25%;
+}
+
+.contact__us_row2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 35px;
+  position: relative;
+}
+
+.contact__us_row2 > input {
+  width: 100%;
+}
+
+.contact__us_button {
+  position: absolute;
+  right: 25px;
+  top: 15px;
+}
+
+.quickLinks__title {
+  font-size: 21px;
+  line-height: 24px;
+  letter-spacing: -0.2625px;
+  margin-bottom: 16px;
+  color: #372f61;
+}
+
+.quickLinks__link,
+.quickLinks__description {
+  font-size: 17px;
+  line-height: 30px;
+  color: #262729;
+  mix-blend-mode: normal;
+  list-style-type: none;
+  opacity: 0.7;
+}
+
+.quickLinks__wrapper {
+  max-width: 219px;
+}
+
+.bottom__info_wrapper {
+  margin-top: 94px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.bottom_navbar__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 44px 0px;
+  padding-top: 57px;
+  border-top: 1px solid #979797;
+}
+
+.bottom_navbar__wrapper > p {
+  font-size: 21px;
+  line-height: 30px;
+  color: #262729;
+}
+
+.bottom_navbar__ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.bottom_navbar__ul > li {
+  margin: 0 32px;
+  font-size: 17px;
+  color: #262729;
+}
+
+.bottom_navbar__ul > li:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,7 @@
+.button__wrapper {
+  padding: 16px 28px;
+  color: white;
+  background-color: #61b981;
+  border-radius: 8px;
+  cursor: pointer;
+}

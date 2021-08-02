@@ -1,0 +1,33 @@
+.navbar__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #aefecb;
+}
+
+.navbar__wrapper > img {
+  width: 226px;
+  height: 36px;
+}
+
+.navbar__ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.navbar__ul > li {
+  margin: 0 32px;
+  font-size: 18px;
+}
+
+.navbar__ul > li:hover {
+  cursor: pointer;
+}
+
+.navbar__ul > .login {
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 16px 36px;
+}

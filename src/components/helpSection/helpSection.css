@@ -1,0 +1,81 @@
+.help__section_wrapper {
+  background-color: white;
+  padding: 80px 0 !important;
+  text-align: center;
+}
+
+.help__section_wrapper > h1 {
+  display: inline;
+  color: #191d19;
+  font-size: 44px;
+  line-height: 86px;
+  letter-spacing: -0.55px;
+  position: relative;
+}
+
+.help__section_wrapper > h1:after {
+  display: block;
+  position: absolute;
+  content: "";
+  height: 2px;
+  background-color: #00d87d;
+  width: 85px;
+  bottom: -25%;
+  right: 10%;
+}
+
+.help__section_content {
+  margin-top: 75px;
+  display: flex;
+  justify-content: center;
+}
+
+.help__section_left {
+  margin-right: 75px;
+}
+
+.help__section_left > img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.help__section_right {
+}
+
+.cleanUpYourPast {
+  color: #f16346;
+}
+
+.trackAndLearn {
+  color: #edc820;
+}
+
+.changeYourFuture {
+  color: #67c188;
+}
+
+.help__section_content-wrapper {
+  max-width: 707px;
+  margin-bottom: 40px;
+}
+
+.help__section_content_title {
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: -0.35px;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.help__section_content_description {
+  font-size: 21px;
+  line-height: 32px;
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.7;
+  text-align: left;
+}
+
+.help__section_button {
+  max-width: fit-content;
+}
